@@ -1,0 +1,97 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+.todo-container {
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5eeee;
+  color: black;
+  text-align: left;
+}
+
+h1 {
+  font-size: large;
+  color: black;
+  margin-bottom: 15px;
+  text-align: left;
+}
+#page-layout {
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5eeee;
+  color: black;
+}
+
+#header {
+  text-align: center;
+  color: #e7dcdc;
+  margin-bottom: 15px;
+  font-size: larger;
+  color: black;
+}
+
+#to-do-list {
+  background-color: #888;
+  font-family: fantasy;
+  font-size: large;
+  font-weight: 500;
+}
+
+#to-do-list ul li {
+  border-style: solid;
+  border-width: 1px;
+  color: #fff;
+}
+
+.to-do-list li:hover {
+  background-color: rgb(126, 132, 131);
+  color: #070202;
+  border: 1px solid #007bff;
+}
